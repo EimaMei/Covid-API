@@ -11,9 +11,9 @@ from covid import Covid
 covid = Covid()
 print(covid.total())
 ```
-It'll output this (data will be incorrect due to new cases and such):
+It'll output this (data will be incorrect due to new cases and such):</br >
 ```{'name': 'World', 'cases': 181848442, 'deaths': 3938478, 'recovered': 166329519}```
-</br >
+</br ></br >
 **Getting country specific data**
 ```python
 from covid import Covid
@@ -21,9 +21,9 @@ from covid import Covid
 covid = Covid()
 print(covid.country("USA"))
 ```
-It'll output this (data will be incorrect due to new cases and such):
+It'll output this (data will be incorrect due to new cases and such):</br >
 ```{'name': 'USA', 'cases': 34494575, 'deaths': 619434, 'recovered': 28927335}```
-</br >
+</br ></br >
 For what countries are supported, check the nations from https://www.worldometers.info/coronavirus/.
 
 
